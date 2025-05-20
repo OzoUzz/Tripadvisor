@@ -369,7 +369,29 @@ button {
   max-width: 280px;
 }
 
-.greatfor-tours {
+.greatfor-bars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  overflow-x: scroll;
+  padding-left: 340px;
+  max-width: 1250px;
+  margin-left: 60px;
+}
+
+.greatfor-archtours {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  overflow-x: scroll;
+  padding-left: 340px;
+  max-width: 1250px;
+  margin-left: 60px;
+}
+
+.greatfor-eatdrink {
   display: flex;
   justify-content: center;
   align-items: center;

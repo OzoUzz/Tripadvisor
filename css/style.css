@@ -380,6 +380,17 @@ button {
   margin-left: 60px;
 }
 
+.greatfor-cultular {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  overflow-x: scroll;
+  padding-left: 340px;
+  max-width: 1250px;
+  margin-left: 60px;
+}
+
 .greatfor-archtours {
   display: flex;
   justify-content: center;

@@ -45,3 +45,144 @@
     justify-content: center;
     margin-top: 20px;
 }
+
+.subheading {
+      font-size: 0.9rem;
+      color: #666;
+      margin-bottom: 2rem;
+    }
+
+    .grid {
+      display: flex;
+      gap: 40px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .card2 {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+      padding: 1.2rem;
+      transition: 0.2s;
+      width: 450px;
+    }
+
+    .card2:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .tag {
+      background-color: #eee;
+      padding: 4px 10px;
+      border-radius: 8px;
+      font-size: 0.75rem;
+    }
+
+    .card2 h3 {
+      margin: 0.5rem 0 1rem;
+    }
+
+    .powered {
+      font-size: 0.8rem;
+      color: #999;
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+    }
+
+    .btn3 {
+      margin-top: 1rem;
+      padding: 8px 14px;
+      background-color: black;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      cursor: pointer;
+      width: 120px;
+    }
+
+    .btn3:hover {
+      background-color: #333;
+    }
+    .cardd2{
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+      padding: 1.5rem;
+      transition: 0.2s;
+      width: 1300px;
+      margin-left: 50px;
+      height: 300px;
+      gap: 50px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .nigerian{
+        padding: 20px 0;
+    }
+    .card2-right{
+        display: flex;
+        flex-direction: column;
+    }
+    .comment{
+        background-color: rgba(149, 149, 149, 0.268);
+        width: 420px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px 30px;
+        border-radius: 20px;
+    }
+    .comment-avatar{
+        border-radius: 50%;
+    }
+    .coment{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .comments{
+        display: flex;
+        gap: 100px;
+        justify-content: center;
+    }
+    .tour-img{
+      border-radius: 10px;
+    }
+    .tour-title{
+      max-width: 280px;
+    }
+    .greatfor-tours{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      overflow-x: scroll;
+      padding-left: 340px;
+      max-width: 1250px;
+      margin-left: 60px;
+    }
+    .greatfor__wrapper{
+            display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .greatfor-tour{
+            flex-shrink: 0;
+    }
+    .bars-title{
+      margin-left: 70px;
+    }
+    .greatfor-title{
+      margin-left: 70px;
+    }

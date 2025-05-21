@@ -89,15 +89,28 @@ button {
   margin-top: 20px;
 }
 
+.header-minilogo {
+  display: none;
+}
+
 .bi-list {
   display: none;
 }
 
-.header__img2 {
+.bi-person {
   display: none;
 }
 
 @media only screen and (max-width: 390px) {
+  .header-minilogo {
+    display: block;
+  }
+  .header__logo {
+    display: none;
+  }
+  .bi-list {
+    display: block;
+  }
   .header__item2 {
     display: none;
   }
@@ -108,33 +121,21 @@ button {
     display: none;
   }
   .header__search {
-    width: 230px;
+    width: 200px;
   }
   .bi-search {
-    transform: translate(-310px, 3px);
+    font-size: 20px;
+    transform: translate(-295px, 2px);
   }
   .bi-list {
-    display: inline;
     font-size: 30px;
-  }
-  .header__logo {
-    display: none;
-  }
-  .header__img2 {
-    display: block;
-  }
-  .btn1 {
-    display: none;
-  }
-  .usd {
-    display: none;
   }
   .header__right {
     display: none;
   }
   .bi-person {
     display: block;
-    font-size: 30px;
+    font-size: 32px;
   }
   .navbar {
     display: none;
@@ -237,36 +238,32 @@ button {
   cursor: pointer;
 }
 
-.savebtn2 {
+.btn3 {
   display: none;
 }
 
 @media only screen and (max-width: 390px) {
-  .hero-img {
-    border-radius: 0;
-    transform: scale(3);
-    margin-left: -100px;
-    margin-top: 160px;
-    margin-bottom: 200px;
-  }
-  .body {
+  .giga {
     overflow-x: hidden;
+  }
+  .hero-img {
+    transform: scale(3);
+    margin-top: 170px;
+  }
+  .hero__titles {
+    margin-top: 150px;
   }
   .hero__title {
     font-size: 20px;
   }
-  .hero__subtitle {
-    font-size: 15px;
-  }
-  .hero__titles {
-    width: 300px;
-  }
-  .savebtn {
+  .btn2 {
     display: none;
   }
-  .savebtn2 {
+  .btn3 {
     display: block;
-    margin-left: -120px;
+    position: relative;
+    left: -150px;
+    top: -10px;
   }
 }
 .product__menu-item {
@@ -293,9 +290,10 @@ button {
 }
 
 .products__wrapper {
-  list-style: none;
+  display: flex;
   flex-wrap: wrap;
   gap: 80px;
+  justify-content: center;
 }
 
 .bottom-img {
@@ -316,11 +314,16 @@ button {
   width: 300px;
 }
 
+.comments {
+  display: flex;
+  overflow-x: scroll;
+  gap: 20px;
+}
+
 .bottom-products {
   display: flex;
   flex-wrap: wrap;
   gap: 60px;
-  justify-content: center;
   margin-top: 20px;
 }
 
@@ -436,12 +439,6 @@ button {
   gap: 10px;
 }
 
-.comments {
-  display: flex;
-  gap: 100px;
-  justify-content: center;
-}
-
 .tour-img {
   border-radius: 10px;
 }
@@ -452,36 +449,44 @@ button {
 
 .greatfor-bars {
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 40px;
   overflow-x: scroll;
+  padding-left: 340px;
   max-width: 1250px;
   margin-left: 60px;
 }
 
 .greatfor-cultular {
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 40px;
   overflow-x: scroll;
+  padding-left: 340px;
   max-width: 1250px;
   margin-left: 60px;
 }
 
 .greatfor-archtours {
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 40px;
   overflow-x: scroll;
+  padding-left: 340px;
   max-width: 1250px;
   margin-left: 60px;
 }
 
 .greatfor-eatdrink {
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 40px;
   overflow-x: scroll;
+  padding-left: 340px;
   max-width: 1250px;
   margin-left: 60px;
 }
@@ -504,43 +509,73 @@ button {
   margin-left: 70px;
 }
 
-.products2__wrapper {
+.product {
+  list-style: none;
+  max-width: 400px;
+}
+
+.products__wrapper2 {
   display: flex;
   flex-wrap: wrap;
   gap: 50px;
   justify-content: center;
+  margin-top: 20px;
+}
+
+.products__wrapper3 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.products__wrapper4 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.niger {
+  margin-left: 600px;
+  margin-top: 20px;
 }
 
 @media only screen and (max-width: 390px) {
+  .prducs__subtitle {
+    margin-top: -60px;
+  }
   .products__menu {
     display: flex;
-    overflow-x: scroll;
     gap: 20px;
+    overflow-x: scroll;
   }
-  .products2__wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-  .product-title {
-    width: 280px;
-    font-size: 15px;
-  }
-  .product-subtitle {
-    width: 150px;
+  .product__menu-item {
     font-size: 12px;
-    margin-top: -15px;
-  }
-  .nigerian {
-    font-size: 15px;
   }
   .product {
-    width: 10px;
+    gap: 20px;
+    width: 40%;
   }
   .product-img {
-    width: 150px;
+    width: 160px;
   }
-  body {
-    overflow-x: hidden;
+  .product__title2 {
+    font-size: 10px;
+  }
+  .product__subtitle {
+    font-size: 6px;
+  }
+  .niger {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .bottom-products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -89,3 +89,35 @@
       margin-left: 10px;
       cursor: pointer;
     }
+    .savebtn2{
+          display: none;
+    }
+
+@media only screen and (max-width:390px) {
+  .hero-img{
+    border-radius: 0;
+    transform: scale(3);
+    margin-left: -100px;
+    margin-top: 160px;
+    margin-bottom: 200px;
+  }
+  .body{
+    overflow-x: hidden;
+  }
+  .hero__title{
+    font-size: 20px;
+  }
+  .hero__subtitle{
+    font-size: 15px;
+  }
+  .hero__titles{
+    width: 300px;
+  }
+  .savebtn{
+    display: none;
+  }
+  .savebtn2{
+    display: block;
+    margin-left: -120px;
+  }
+}

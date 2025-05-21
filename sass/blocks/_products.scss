@@ -18,10 +18,10 @@
     border-radius: 10px;
 }
 .products__wrapper{
-    display: flex;
+  list-style: none;
     flex-wrap: wrap;
     gap: 80px;
-    justify-content: center;
+
 }
 .bottom-img{
     border-radius: 10px;
@@ -164,41 +164,36 @@
     }
     .greatfor-bars{
       display: flex;
-      justify-content: center;
       align-items: center;
       gap: 40px;
       overflow-x: scroll;
-      padding-left: 340px;
+
       max-width: 1250px;
       margin-left: 60px;
     }
     .greatfor-cultular{
       display: flex;
-      justify-content: center;
       align-items: center;
       gap: 40px;
       overflow-x: scroll;
-      padding-left: 340px;
+
       max-width: 1250px;
       margin-left: 60px;
     }
     .greatfor-archtours{
       display: flex;
-      justify-content: center;
       align-items: center;
       gap: 40px;
       overflow-x: scroll;
-      padding-left: 340px;
+
       max-width: 1250px;
       margin-left: 60px;
     }
     .greatfor-eatdrink{
       display: flex;
-      justify-content: center;
       align-items: center;
       gap: 40px;
       overflow-x: scroll;
-      padding-left: 340px;
       max-width: 1250px;
       margin-left: 60px;
     }
@@ -216,3 +211,46 @@
     .greatfor-title{
       margin-left: 70px;
     }
+
+
+    .products2__wrapper{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 50px;
+      justify-content: center;
+    }
+
+@media only screen and (max-width:390px){
+  .products__menu{
+    display: flex;
+    overflow-x: scroll;
+    gap: 20px;
+  }
+  .products2__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+  }
+  .product-title{
+    width: 280px;
+    font-size: 15px;
+  }
+  .product-subtitle{
+    width: 150px;
+    font-size: 12px;
+    margin-top: -15px;
+  }
+  .nigerian{
+    font-size: 15px;
+  }
+  .product{
+    width:10px;
+  }
+  .product-img{
+    width: 150px;
+  }
+  body{
+    overflow-x: hidden;
+  }
+}

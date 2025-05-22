@@ -62,7 +62,6 @@
       justify-content: center;
       margin-top: 20px;
     }
-
     .card2 {
       background-color: #fff;
       border-radius: 12px;
@@ -140,12 +139,15 @@
     }
     .comment{
         background-color: rgba(149, 149, 149, 0.268);
-        width: 420px;
+        width: 100%;
         display: flex;
         flex-direction: column;
         gap: 20px;
         padding: 10px 30px;
         border-radius: 20px;
+    }
+    .comment-title{
+      width: 200px;
     }
     .comment-avatar{
         border-radius: 50%;
@@ -163,41 +165,33 @@
     }
     .greatfor-bars{
       display: flex;
-      justify-content: center;
       align-items: center;
       gap: 40px;
       overflow-x: scroll;
-      padding-left: 340px;
       max-width: 1250px;
       margin-left: 60px;
     }
     .greatfor-cultular{
       display: flex;
-      justify-content: center;
       align-items: center;
       gap: 40px;
       overflow-x: scroll;
-      padding-left: 340px;
       max-width: 1250px;
       margin-left: 60px;
     }
     .greatfor-archtours{
       display: flex;
-      justify-content: center;
       align-items: center;
       gap: 40px;
       overflow-x: scroll;
-      padding-left: 340px;
       max-width: 1250px;
       margin-left: 60px;
     }
     .greatfor-eatdrink{
       display: flex;
-      justify-content: center;
       align-items: center;
       gap: 40px;
       overflow-x: scroll;
-      padding-left: 340px;
       max-width: 1250px;
       margin-left: 60px;
     }
@@ -222,7 +216,7 @@
     .products__wrapper2{
       display: flex;
       flex-wrap: wrap;
-      gap: 50px;
+      gap: 30px;
       justify-content: center;
       margin-top: 20px;
     }
@@ -243,6 +237,9 @@
     .niger{
       margin-left: 600px;
       margin-top: 20px;
+    }
+    .bi-star-fill{
+      color: yellow;
     }
     @media only screen and (max-width:390px) {
       .prducs__subtitle{
@@ -278,5 +275,36 @@
         flex-direction: row;
         flex-wrap: nowrap;
         overflow-x: scroll;
+      }
+      .products__wrapper2{
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .container2{
+        display: none;
+      }
+      .product{
+        max-width: 150px;
+      }
+      .product-img{
+        max-width: 120px;
+      }
+      .product-title2{
+        font-size: 12px;
+      }
+      .product-subtitle{
+        font-size: 10px;
+      }
+      .greatfor-cultular{
+        margin-left:0px;
+      }
+      .greatfor-bars{
+        margin-left:0px;
+      }
+      .greatfor-eatdrink{
+        margin-left:0px;
+      }
+      .greatfor-archtours{
+        margin-left:0px;
       }
     }

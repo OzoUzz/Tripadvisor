@@ -1,7 +1,8 @@
 const data = [
 
-    // travels
+  // travels
   {
+    id: 1,
     name: "Tashkent Metro",
     rating: 4.3,
     reviews: 1417,
@@ -18,6 +19,7 @@ const data = [
     ]
   },
   {
+    id: 2,
     name: "Chimgon",
     rating: 4.4,
     reviews: 266,
@@ -34,8 +36,9 @@ const data = [
     ]
   },
 
-//   museums
+  // museums
   {
+    id: 3,
     name: "Uzbekistan State Museum of Applied Art",
     rating: 4.3,
     reviews: 304,
@@ -52,6 +55,7 @@ const data = [
     ]
   },
   {
+    id: 4,
     name: "Old Tashkent",
     rating: 4.1,
     reviews: 146,
@@ -68,8 +72,9 @@ const data = [
     ]
   },
 
-//   arts
+  // arts
   {
+    id: 5,
     name: "Teleshayakh Mosque",
     rating: 4.4,
     reviews: 282,
@@ -86,6 +91,7 @@ const data = [
     ]
   },
   {
+    id: 6,
     name: "Independence Square (Mustakillik Square)",
     rating: 4.1,
     reviews: 510,
@@ -102,8 +108,9 @@ const data = [
     ]
   }, 
 
-//   restaurants 
+  // restaurants 
   {
+    id: 7,
     name: "Lali",
     rating: 5.0,
     reviews: 5,
@@ -111,17 +118,18 @@ const data = [
     cuisine: ["Uzbek"],
     priceRange: "$$ - $$$",
     status: null,
-     img:"./assets/restaurant1.png",
-     description: "“Visiting Tashkent and having dinner at such amazing restaurants, was a very nice",
-     comment: [
+    img:"./assets/restaurant1.png",
+    description: "“Visiting Tashkent and having dinner at such amazing restaurants, was a very nice",
+    comment: [
         {
             name:'Amir Temur',
             text:'Kuch adolatda',
             date:'01/01/1364'
         }
-     ]
+    ]
   },
   {
+    id: 8,
     name: "Yuzhanin",
     rating: 4.6,
     reviews: 20,
@@ -129,18 +137,18 @@ const data = [
     cuisine: ["Italian", "Caucasian"],
     priceRange: "$$ - $$$",
     status: "Open now",
-     img:"./assets/restaurant2.png",
-     description: "“Everythin was perfect. Enver was kindly supported in all till the end. Everythin was",
-     comment: [
+    img:"./assets/restaurant2.png",
+    description: "“Everythin was perfect. Enver was kindly supported in all till the end. Everythin was",
+    comment: [
         {
             name:'Jonny',
             text:'world Improve this listing',
             date:'01/01/2007'
         }
-     ]
-    
+    ]
   },
   {
+    id: 9,
     name: "Cafe 1991",
     rating: 4.8,
     reviews: 654,
@@ -148,17 +156,18 @@ const data = [
     cuisine: ["Lebanese", "Barbecue"],
     priceRange: "$$ - $$$",
     status: "Open now",
-     img:"./assets/restaurant3.png",
-     description: "“Amazing fusion cousin with vegan/vegetarian menu”",
-     comment: [
+    img:"./assets/restaurant3.png",
+    description: "“Amazing fusion cousin with vegan/vegetarian menu”",
+    comment: [
         {
             name:'Tom Kruz',
             text:'A Beautiful Metro',
             date:'01/01/2003'
         }
-     ]
+    ]
   },
   {
+    id: 10,
     name: "Ember & Embar",
     rating: 4.9,
     reviews: 96,
@@ -166,16 +175,15 @@ const data = [
     cuisine: ["Bar", "International"],
     priceRange: null,
     status: null,
-     img:"./assets/restaurant4.png",
-     description: "“Recently visited my homeland. After living abroad for many years, I missed...”",
-     comment: [
+    img:"./assets/restaurant4.png",
+    description: "“Recently visited my homeland. After living abroad for many years, I missed...”",
+    comment: [
         {
             name:'Alisher navoiy',
             text:'Soz mulkining sultoni',
             date:'01/01/1445'
         }
-     ]
-  }, 
+    ]
+  }
 
 ];
- 

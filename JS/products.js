@@ -6,7 +6,6 @@ let productWrapper5 = document.querySelector(".greatfor-cultular");
 let productWrapper6 = document.querySelector(".greatfor-bars");
 let productWrapper7 = document.querySelector(".greatfor-archtours");
 let productWrapper8 = document.querySelector(".greatfor-eatdrink");
-
 for(let i = 0; i < data.length; i++){
     productWrapper1.insertAdjacentHTML('beforeend',`
          <a href="./detail.html?id=${data[i].id}">
@@ -24,6 +23,7 @@ for(let i = 0; i < data.length; i++){
 for(let i = 0; i < data.length; i++){
     if(data[i].category == "restaurant"){
     productWrapper2.insertAdjacentHTML('beforeend',`
+                 <a href="./detail.html?id=${data[i].id}">
                 <li class="product">
                     <img src="${data[i].img}" alt="" class="product-img">
                     <div class="product__titles">
@@ -38,6 +38,7 @@ for(let i = 0; i < data.length; i++){
 for(let i = 0; i < data.length; i++){
     if(data[i].category == "arts" || data[i].category == "museums" ){
     productWrapper3.insertAdjacentHTML('beforeend',`
+                 <a href="./detail.html?id=${data[i].id}">
                 <li class="product">
                     <img src="${data[i].img}" alt="" class="product-img">
                     <div class="product__titles">
@@ -62,6 +63,7 @@ for(let i = 0; i < data.length; i++){
 }
 for(let i = 0; i < data.length; i++){
     productWrapper5.insertAdjacentHTML('beforeend',`
+                 <a href="./detail.html?id=${data[i].id}">
         <li class="greatfor-tour">
             <img src="${data[i].img}" alt="" class="tour-img">
             <div class="tour-titles">
@@ -85,6 +87,7 @@ for(let i = 0; i < data.length; i++){
 for(let i = 0; i < data.length; i++){
     if(data[i].category == 'restaurant'){
     productWrapper6.insertAdjacentHTML('beforeend',`
+                 <a href="./detail.html?id=${data[i].id}">
         <li class="greatfor-tour">
             <img src="${data[i].img}" alt="" class="tour-img">
             <div class="tour-titles">
@@ -108,6 +111,7 @@ for(let i = 0; i < data.length; i++){
 }
 for(let i = 0; i < data.length; i++){
     productWrapper7.insertAdjacentHTML('beforeend',`
+                 <a href="./detail.html?id=${data[i].id}">
         <li class="greatfor-tour">
             <img src="${data[i].img}" alt="" class="tour-img">
             <div class="tour-titles">
@@ -130,6 +134,7 @@ for(let i = 0; i < data.length; i++){
 }
 for(let i = 0; i < data.length; i++){
     productWrapper8.insertAdjacentHTML('beforeend',`
+                 <a href="./detail.html?id=${data[i].id}">
         <li class="greatfor-tour">
             <img src="${data[i].img}" alt="" class="tour-img">
             <div class="tour-titles">
@@ -150,10 +155,3 @@ for(let i = 0; i < data.length; i++){
         `);
     }
 }
-
-// productWrapper1.addEventListener('click', (e)=>{
-//     if(e.target.closest('.product')){
-
-//     }
-    
-// })
